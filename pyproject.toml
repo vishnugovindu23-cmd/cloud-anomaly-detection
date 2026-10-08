@@ -1,0 +1,10 @@
+[project]
+name = "cloud-anomaly-detection"
+version = "1.0.0"
+description = "Isolation Forest anomaly detection on AWS CloudTrail and VPC Flow Logs, with MITRE ATT&CK explanations"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "scikit-learn>=1.4", "matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
